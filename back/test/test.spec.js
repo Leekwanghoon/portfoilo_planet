@@ -5,7 +5,7 @@ const app = require('../app')
 describe('GET /users',()=>{
 	it('should resturn 200 status code' , (done)=>{
 		request(app)
-		// post+send delet 다 가능
+		// post+send delete 다 가능
 		.get('/users')
 		.expect(200)
 		.end((err, res)=>{
