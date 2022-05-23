@@ -16,8 +16,14 @@
     "nodemon": "^2.0.16"
   },
   "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "jest": "^28.1.0",
     "mocha": "^10.0.0",
+    "prettier": "^2.6.2",
     "should": "^13.2.3",
     "supertest": "^6.2.3"
   }
