@@ -6,8 +6,8 @@ const viewsRouter = express.Router();
 viewsRouter.use("/", serveStatic("index"));
 viewsRouter.use("/Template_example", serveStatic("Template_example"));
 
-function serveStatic(resource) {
-  const resourcePath = path.join(
+function serveStatic(resource: string) {
+  const resourcePath: string = path.join(
     __dirname,
     `../../front/html/Template/${resource}`
   );
