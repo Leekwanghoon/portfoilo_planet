@@ -1,5 +1,5 @@
 import express from "express";
-import path, { PlatformPath } from "path";
+import path from "path";
 
 const viewsRouter = express.Router();
 
